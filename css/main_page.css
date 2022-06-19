@@ -1,0 +1,243 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('imageonline-co-blurimage.png');
+    background-size: cover;
+    background-position: center;
+}
+header{
+   
+    background-color: rgb(16, 4, 61);
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    
+}
+.heading {
+    /* margin-left: 2rem;
+    text-align: center; */
+    margin: 0 auto;
+   
+    text-align: center;
+}
+.Logo{
+    width: 8rem;
+    height: 8rem;
+    margin-top:1rem;
+}
+.result_img{
+    width:22rem;
+    margin-top: 4rem;
+    margin-left: 9rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 22px 4px rgb(0 0 0 / 86%);
+    border: 0.2rem solid rgb(16, 4, 61);
+    animation: blink 1s infinite;
+}
+form{
+    border: 0.2rem solid rgb(16, 4, 61);
+    padding: 1rem;
+    width:22rem;
+    margin-left: 4rem;
+    border-radius: 1rem;
+    height:14.5rem;
+    margin-top: 4rem;
+    text-align: center;
+    box-shadow: 5px 5px 22px 4px rgb(0 0 0 / 86%);
+    background-color:rgb(240, 210, 150);;
+}
+
+
+article{
+    display:flex;
+    flex-direction: row;
+    
+}
+footer{
+    background-color: rgb(16, 4, 61);
+    height: 4rem;
+    margin-top: 2.7rem;
+}
+footer h4{
+    color: white;
+    position: relative;
+    top:1.5em;
+    text-align: center;
+}
+a{
+    color:yellow;
+}
+.admin_button{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.5rem;
+
+}
+.admin_button a,.option a{
+    text-decoration: none;
+}
+.admin_button a:hover{
+    background-color: yellow;
+    color: red;
+    padding: 0.5rem 1rem;
+}
+.option{
+    background-color: red;
+    color:white;
+    font-weight: bolder;
+    border-radius: 0.4rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.5rem;
+    
+}
+.option:hover{
+    background-color: navy;
+    padding: 1rem 2rem;
+    font-family:monospace;
+}
+.color_box1{
+    color: yellow;
+    animation: changecolor 3s infinite;
+
+}
+.color_box2{
+    color: rgb(3, 255, 234);
+    animation: changecolor1 3s infinite;
+}
+
+@keyframes changecolor1 {
+    0%{
+        color:rgb(3, 255, 234);
+    }
+    100%{
+        color:yellow;
+    }
+    
+}
+
+@keyframes changecolor {
+    0%{
+        color:yellow;
+    }
+    100%{
+        color: rgb(3, 255, 234);
+    }
+    
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+    
+}
+
+
+  
+@media(max-width:1110px) {
+    .result_img{
+    width:20rem;
+    margin-top: 4rem;
+    margin-left: 9rem;
+    border-radius: 1rem;
+}
+form{
+    border: 0.2rem solid rgb(16, 4, 61);
+    padding: 1rem;
+    width:20rem;
+    margin-left: 4rem;
+    border-radius: 1rem;
+    height:14.5rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+}
+@media(max-width:915px) {
+    article{
+    display:flex;
+    flex-direction: column;
+}
+.result_img{
+    width:20rem;
+   
+    margin: 20px auto;
+    border-radius: 1rem;
+}
+form{
+    border: 0.2rem solid rgb(16, 4, 61);
+    padding: 1rem;
+    width:30rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    height:14.5rem;
+    margin-top: 1rem;
+    text-align: center;
+   
+}
+}
+
+@media(max-width:590px) {
+    article{
+    display:flex;
+    flex-direction: column;
+}
+.result_img{
+    width:20rem;
+    box-shadow: 5px 5px 22px 4px rgba(0,0,0,0.86);
+    margin: 20px auto;
+    border-radius: 1rem;
+}
+form{
+    border: 0.2rem solid rgb(16, 4, 61);
+    padding: 1rem;
+    width:20rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    height:14.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.heading{
+    margin:0rem auto;
+    text-align: center;
+    font-size: small;
+    
+}
+.Logo{
+    width: 5rem;
+    height: 5rem;
+    margin-top:1rem;
+}
+}
+@media(max-width:400px) {
+    .result_img{
+    width:14rem;
+   
+    margin: 20px auto;
+    border-radius: 1rem;
+}
+form{
+    border: 0.2rem solid rgb(16, 4, 61);
+    padding: 1rem;
+    width:14rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    height:14.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+footer{
+font-size: small;
+}
+.Logo{
+width: 3rem;
+}
+}

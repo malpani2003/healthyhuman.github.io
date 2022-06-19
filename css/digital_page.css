@@ -1,0 +1,190 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url('imageonline-co-blurimage.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+
+    background-color: rgb(16, 4, 61);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.heading {
+    /* margin-left: 2rem;
+    text-align: center; */
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.Logo {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+}
+
+.admin_button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.5rem;
+
+}
+
+.admin_button a {
+    text-decoration: none;
+}
+
+a {
+    color: yellow;
+}
+
+.admin_button a:hover {
+    background-color: yellow;
+    color: red;
+    padding: 0.5rem 1rem;
+}
+
+article h1 {
+    background-color: rgb(240, 210, 150);
+    margin: 0%;
+    text-align: center;
+}
+
+.main_img {
+    /* margin:0% auto;
+    justify-content:center; */
+    width: 30rem;
+    margin: 0% auto;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 1rem 2rem;
+    border: 2px solid navy;
+}
+
+.info p {
+    text-align: center;
+}
+
+.info {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgb(240, 210, 150);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.info h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: navy;
+}
+
+footer {
+    background-color: rgb(16, 4, 61);
+    height: 4rem;
+    margin-top: 2.7rem;
+}
+
+footer h4 {
+    color: white;
+    position: relative;
+    top: 1.5em;
+    text-align: center;
+}
+
+.info li {
+    list-style: square;
+}
+
+.color_box1 {
+    color: yellow;
+    animation: changecolor 3s infinite;
+
+}
+
+.color_box2 {
+    color: rgb(3, 255, 234);
+    animation: changecolor1 3s infinite;
+}
+
+@keyframes changecolor1 {
+    0% {
+        color: rgb(3, 255, 234);
+    }
+
+    100% {
+        color: yellow;
+    }
+
+}
+
+@keyframes changecolor {
+    0% {
+        color: yellow;
+    }
+
+    100% {
+        color: rgb(3, 255, 234);
+    }
+
+}
+
+@media(max-width:550px) {
+    .main_img {
+        /* margin:0% auto;
+    justify-content:center; */
+        width: 20rem;
+        margin: 0% auto;
+        display: block;
+        margin-top: 1rem;
+        border-radius: 1rem 2rem;
+        border: 2px solid navy;
+    }
+
+    .heading {
+        margin: 0rem auto;
+        text-align: center;
+        font-size: small;
+
+    }
+
+    .Logo {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1rem;
+    }
+
+}
+@media(max-width:360px) {
+    .main_img {
+        /* margin:0% auto;
+    justify-content:center; */
+        width: 15rem;
+        margin: 0% auto;
+        display: block;
+        margin-top: 1rem;
+        border-radius: 1rem 2rem;
+        border: 2px solid navy;
+    }
+
+    
+}
+
+@media(max-width:400px) {
+    footer {
+        font-size: small;
+    }
+
+  
+
+
+}
